@@ -1,0 +1,25 @@
+.container {
+    height: 50px;
+    width: 70vw;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    display: flex;
+    margin: 8px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.addImg {
+    width: 24px;
+    background-color: #777;
+    border-radius: 5px;
+}
+
+.task-p {
+    color: #777;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 16px;
+}

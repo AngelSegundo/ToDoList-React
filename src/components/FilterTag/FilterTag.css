@@ -1,0 +1,15 @@
+.filterBox {
+    width: 80px;
+    height: 24px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+}
+
+.tagName {
+    font-size: 16px;
+    color: #ccc;
+}
