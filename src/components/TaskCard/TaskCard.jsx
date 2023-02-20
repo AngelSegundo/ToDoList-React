@@ -24,8 +24,8 @@ const TaskCard = ({ id, name, list, color, done, priority, create}) => {
 
     return (
         <div className="cardBox">
-            <div className="checkbox">
-                <input className="inputCheckBox" type="checkbox" onClick={() => handleCheck()}></input>
+            <div className="checkbox-con">
+                <input id="checkbox" type="checkbox" onClick={() => handleCheck()}></input>
             </div>
             <div className="description">
                 <h2 className={status}>{name}</h2>
